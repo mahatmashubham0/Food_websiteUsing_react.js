@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: PT Sans, Calibri, sans-serif;
+  overflow-x: hidden;
+}
+
+.shimmer-card {
+  flex-basis: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 300px;
+  border-color: #d3d5df;
+  background-color: lightgray;
+  box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+}
+
+.restaurant-summary .shimmer-img {
+  height: 144px;
+  width: 230px;
+  /* border-color: #d3d5df; */
+  /* background-color: #d3d5df; */
+}
+
+.shimmer-menu-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 848px;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* border-color: #d3d5df; */
+  background-color: #d3d5df;
+  box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+}
+
+.shimmer-item-details {
+  width: 438px;
+}
+
+.shimmer-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 118px;
+  height: 150px;
+}
+
+.shimmer-img-wrapper .shimmer-img {
+  width: 118px;
+  height: 96px;
+}
+
+.shimmer-img-wrapper .shimmer-btn {
+  width: 94px;
+  height: 34px;
+  margin-top: 10px;
+}
+
+.shimmer-w60 {
+  width: 60%;
+  margin-top: 10px;
+}
+
+.shimmer-w40 {
+  width: 40%;
+  margin-top: 10px;
+}
+
+.shimmer-w20 {
+  width: 20%;
+  margin-top: 4px;
+}
+
+.container {
+  max-width: 300px;
+
+  /* background-color: red; */
+
+  /* Center the container in middle on horizontal axis */
+  margin: 0 auto;
+
+  /* Add empty space above the container (20% of the view height) */
+  /* margin-top: 20vh; */
+}
+
+.menu-container {
+  max-width: 100%;
+
+  /* background-color: red; */
+
+  /* Center the container in middle on horizontal axis */
+  margin: 0 auto;
+
+}
+
+
+.bg-image {
+  background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/29/5c/img-worlds-of-adventure.jpg?w=1200&h=-1&s=1');
+}
