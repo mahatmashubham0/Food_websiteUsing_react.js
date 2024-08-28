@@ -26,7 +26,7 @@ const Body = () => {
     );
     const json = await data.json();
     console.log(json);
-    console.log(json.data.statusMessage);
+    console.log(json?.data?.statusMessage);
 
     function checkJsonData(jsonData) {
       for (let i = 0; i < jsonData?.data?.cards.length; i++) {
